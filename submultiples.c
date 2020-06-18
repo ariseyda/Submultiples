@@ -12,7 +12,7 @@ int main(){
 	printf("Please enter an integer:");
 	scanf("%d",&n);
 
-    //I created a string with numbers from 2 to 9.
+    //I created an array with numbers from 2 to 9.
     for(i=2;i<10;i++){
     	numbers[i-2]=i;
 	}
