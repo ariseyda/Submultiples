@@ -8,7 +8,7 @@ int main(){
 	unsigned int n;
 	int begin,end,j;
 	
-	//%u is aformat specifiers for unsigned int.
+	//%u is a format specifiers for unsigned int.
 	printf("Please enter an integer:");
 	scanf("%u",&n);
 
