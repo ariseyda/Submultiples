@@ -6,24 +6,18 @@
 int main(){
 	
 	unsigned int n;
-	int i,j;
-	int numbers[8];
+	int begin,end,j;
+	
 	
 	printf("Please enter an integer:");
 	scanf("%d",&n);
 
-    //I created an array with numbers from 2 to 9.
-    for(i=2;i<10;i++){
-    	numbers[i-2]=i;
-	}
+        printf("Please enter range of submultiples:");
+        scanf("%u %u",&begin,&end);
 	
-	/*for(j=0;j<8;j++){
-		printf("%d ",numbers[j]);
-	}*/
-	
-    for(j=0;j<8;j++){
-    	if(n%numbers[j]==0){
-    		printf("%d is submultiple of the entered value.\n",numbers[j]);
+        for(j=begin;j<=end;j++){
+    	    if(n%j==0){
+    		printf("%d is submultiple of the entered value.\n",j);
 		}
 	}
 	
