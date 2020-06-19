@@ -10,7 +10,7 @@ int main(){
 	
 	
 	printf("Please enter an integer:");
-	scanf("%d",&n);
+	scanf("%u",&n);
 
         printf("Please enter range of submultiples:");
         scanf("%u %u",&begin,&end);
